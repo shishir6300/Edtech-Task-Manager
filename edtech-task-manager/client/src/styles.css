@@ -1,0 +1,87 @@
+body {
+  background: #f4f6f9;
+  font-family: Arial;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px 15px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.error {
+  background: #ffd6d6;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.task {
+  padding: 10px;
+  border: 1px solid #eee;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+.task-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn {
+  background-color: #2563eb; /* Blue */
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #1e40af;
+}
+
+.logout-btn {
+  background-color: #dc2626; /* Red */
+}
+
+.logout-btn:hover {
+  background-color: #b91c1c;
+}
